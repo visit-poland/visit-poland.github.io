@@ -1,22 +1,33 @@
-body {
-  padding-top: 5rem;
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
 }
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}
-
-h1 {
-  color: #ff5050;
-
-}
-
-#titlepadding {
-  margin-top: 10px;
-  padding-top: 10px;
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 
-#navspadding {
-  margin-top: 15px;
-  padding-top: 15px;
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
 }
