@@ -22,3 +22,7 @@ font-family: 'Open Sans', sans-serif;
   margin-top: 15px;
   padding-top: 15px;
 }
+
+.col-md-4{
+	margin-bottom: 30px;
+}
